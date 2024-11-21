@@ -1,0 +1,107 @@
+header{
+    /*PARTE DE LA CABECERA*/
+display: flex;
+background-color: cadetblue;
+height: 75px;
+align-items: center;
+}
+
+.cont{
+    /*Parte naranaj de la cabecera*/
+display: flex;
+justify-content: space-between;
+height: 51px;
+width: 100%;
+background-color: peru;
+align-items: center;
+}
+
+nav a{
+    font-weight: 450;
+    padding-right: 40px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.inicio{
+    padding: 60px;
+}
+body{
+    margin: 0;
+    background-color: bisque;
+}
+.conte{
+    background-color: white;
+    margin-left: 130px;
+    margin-right: 130px;
+    height: 560px;
+    padding: 20px;
+    text-align: center;
+}
+footer{
+    background-color: cadetblue;
+    height: 75px;
+    display: flex;
+    margin-right: 130px;
+    margin-left: 130px;
+    
+}
+.pie{
+    margin-right: 20px;
+    color: white;
+}
+.texto{
+    color: white;
+}
+.punto{
+    border-color: red;
+    border-style: dotted;
+    border-radius: 20px;
+    border-width: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
+table{
+    border-collapse: collapse;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 80%;
+}
+.primero{
+    background-color: cadetblue;
+    border-bottom-style: double;
+    border-color: black;
+    border-bottom-width: 10px   ;
+}
+.fila1{
+    background-color: peru;
+}
+.fila2{
+    background-color: darksalmon;
+}
+h2{
+    text-align: left;
+}
+h3{
+    text-align: left;
+    color:cadetblue ;
+    font-style: oblique;
+}
+p{
+    text-align: left;
+}
+.parraf{
+   display: flex;
+   align-items: center;
+}
+.img{
+    margin-left: 700px;
+}
+.form{
+    padding-top: 90px;
+}
+
